@@ -9,9 +9,9 @@ module OmniAuth
       # This is where you pass the options you would pass when
       # initializing your consumer from the OAuth gem.
       option :client_options, {
-        :site => "https://app.debitoor.com/",
-        :authorize_url => "https://app.debitoor.com/login/oauth2/authorize",
-        :token_url => "https://app.debitoor.com/login/oauth2/access_token"
+        :site => "https://invoices.sumup.com/",
+        :authorize_url => "https://invoices.sumup.com/login/oauth2/authorize",
+        :token_url => "https://invoices.sumup.com/login/oauth2/access_token"
       }
 
       # These are called after authentication has succeeded. If
